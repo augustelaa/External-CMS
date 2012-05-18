@@ -1,0 +1,40 @@
+body{
+    background: $f1f1f1;
+}
+
+#header {
+    padding:14px;
+    background:#CCC;
+    color:#666;
+    font:17px verdana;
+}
+
+#header a{
+    color:goldenrod;
+    border-color:red;
+}
+
+* a{
+    text-decoration: none;
+}
+
+* a:hover{
+    border:1px;
+    border-top:0; border-right:0; border-left:0;
+    border-style:dashed;    
+}
+
+#content{
+    padding:14px;
+    background:#666;
+    color:#CCC;
+    font:16px tahoma;
+}
+
+#footer{
+    padding:14px;
+    background:#CCC;
+    color:#666;
+    font:12px verdana;
+    text-align:center;
+}
